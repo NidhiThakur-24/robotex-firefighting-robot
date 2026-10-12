@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Model training outputs and large data
+datasets/
+runs/
+training/
+evaluation/
+exports/
+webcam_frames/
+webcam_videos/
+*.zip
+
+# Secrets and local config
+.env
+.env.*
